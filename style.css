@@ -48,6 +48,10 @@
   align-items: center;
 }
 
+.wrap {
+  display: flex;
+}
+
 .output-cointainer h1 {
   color: #fff;
 }
@@ -58,4 +62,22 @@
   padding: 30px;
   border-radius: 5px;
   background-color: #fff;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.avatarDiv {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  text-align: end;
+}
+.loginDiv {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  align-content: center;
 }
